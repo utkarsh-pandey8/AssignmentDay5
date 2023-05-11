@@ -1,0 +1,7 @@
+<p>compare-numbers works!</p>
+<div *ngIf="x>y; else elsecondition">
+    {{this.x}} is greater than {{this.y}}
+</div>
+<ng-template #elsecondition>
+    {{this.y}} is greater than {{this.x}}
+</ng-template>

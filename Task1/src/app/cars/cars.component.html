@@ -1,0 +1,9 @@
+<p>cars works!</p>
+This is a custom component cars!
+<br/><br/>
+<div *ngFor="let car of getCars()" [hidden]="flag">
+    {{car.make}} --- {{car.model}} --- {{car.year}}
+</div>
+<br/><br/>
+
+<button (click) = "toggleMe()">ToggleMe</button>
